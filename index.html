@@ -27,9 +27,9 @@
 
   /* Set up the initial map center and zoom level */
   var map = L.map('map', {
-    center: [41.77, -72.69], // EDIT coordinates to re-center map
-    zoom: 12,  // EDIT from 1 (zoomed out) to 18 (zoomed in)
-    scrollWheelZoom: false
+    center: [42.554000, 13.639752], // EDIT coordinates to re-center map
+    zoom: 18,  // EDIT from 1 (zoomed out) to 18 (zoomed in)
+    scrollWheelZoom: true
   });
 
   /* display basemap tiles -- see others at https://leaflet-extras.github.io/leaflet-providers/preview/ */
@@ -41,8 +41,8 @@
   }).addTo(map);
 
   /* Display a point marker with pop-up text */
-  L.marker([41.77, -72.69]).addTo(map) // EDIT marker coordinates
-  .bindPopup("Insert pop-up text here"); // EDIT pop-up text message
+  L.marker([42.554000, 13.639752]).addTo(map) // EDIT marker coordinates
+  .bindPopup("This is my humble house in Italy"); // EDIT pop-up text message
 
   </script>
 </body>
