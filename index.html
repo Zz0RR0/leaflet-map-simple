@@ -17,13 +17,31 @@
   <style>
   body { margin:0; padding:0; }
   #map { position: absolute; top:0; bottom:0; right:0; left:0; }
-  #map-title { position: relative; margin-top: 10px; margin-left: 50px; float: left; background: white; border: 2px solid rgba(0,0,0,0.2); padding: 6px 8px; font-family: Helvetica; font-weight: bold; font-size: 24px; z-index: 800; }
+  #map-title { 
+              position: relative; 
+              margin-top: 10px; 
+              margin-left: 50px; 
+              float: left; 
+              background: aqua; 
+              border: 2px solid rgba(0,0,0,0.2); 
+              padding: 6px 8px; 
+              font-family: Helvetica; 
+              font-weight: bold; 
+              font-size: 24px; 
+              z-index: 800; 
+             }
+    .secondline
+              {
+                font-family: "PT Serif", serif;
+                font-weight: 400;
+                font-style: normal;
+} 
   </style>
 </head>
 <body>
 
   <!-- Display the map and title with HTML division tags  -->
-  <div id="map-title"><p><h2>Piandilago</h2><br><h4>Frazione di Tossicia TE</h4></p></div>
+  <div id="map-title"><h2>Piandilago</h2><p class="secondline">Frazione di Tossicia TE</p></div>
   <div id="map"></div>
 
   <!-- Create the interactive map content with JavaScript (.js) -->
